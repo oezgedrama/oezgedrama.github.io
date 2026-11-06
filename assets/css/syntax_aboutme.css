@@ -1,0 +1,25 @@
+div.aboutme{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 16px;
+}
+
+div.aboutme p {
+    margin: 0 0 1em;
+}
+
+@media only screen and (max-width: 500px) {
+    h1.aboutme {
+      font-size: 18px;
+    }
+    h2.aboutme {
+        font-size: 16px;
+    }
+    h3.aboutme {
+      font-size: 14px;
+    }
+    div.aboutme{
+        font-size: 14px;
+    }
+}
+

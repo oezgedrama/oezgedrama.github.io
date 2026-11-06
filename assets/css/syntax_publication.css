@@ -1,0 +1,115 @@
+
+img.paper-image {
+    float: left;
+    padding-right: 2em;
+    width: 40%;
+}
+
+vid.paper-video{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    img.paper-image {
+      float: none;
+      width: 100%;
+      padding-right: 0;
+      padding-bottom: 2em;
+    }
+    vid.paper-video{
+      width: 100%;
+    }
+}
+
+
+
+.button0 {
+    background-color: #A2A4A4;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    font-weight: normal;
+    margin: 2px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom:5px;
+    padding-top:3px;
+    padding-bottom:3px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+::marker {
+    list-style-type: none;
+    visibility: hidden;
+    margin-left: 0cm;
+    margin: 0cm;
+    padding: 0cm;
+}
+
+/* Spacing between the headers */
+h1.bibliography {
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+  text-align: left;
+}
+
+h2.bibliography {
+  margin: 0;
+  padding: 0;
+  line-height: 3;
+  text-align: left;
+}
+
+h3.bibliography {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  text-align: left;
+}
+
+div.publication_content { 
+  text-align: left; 
+  /* #justify; */
+  text-justify: inter-word;
+  font-size: 14px;  
+} 
+
+
+@media only screen and (max-width: 500px) {
+  
+  h1.bibliography {
+    font-size: 18px;
+  }
+  h2.bibliography {
+      font-size: 16px;
+  }
+  h3.bibliography {
+    font-size: 14px;
+  }
+  div.bibliography{
+    font-size: 13px;
+  }
+  div.publication_content { 
+    font-size: 13px;  
+    text-align: left;
+  } 
+}
+
+li.bibliography {
+  list-style-type: none;
+}
+
+ol.bibliography {
+  list-style-type: none;
+  padding: 0;
+}
+
